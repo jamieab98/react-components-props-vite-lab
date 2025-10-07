@@ -1,10 +1,13 @@
 import React from "react";
 
-function About() {
+function About(props) {
 
     return (
         <div id = "about">
-            About
+            <aside>
+                <img src = {props.image} alt = {"blog logo"}></img>
+                <p>{props.text}</p>
+            </aside>
         </div>
     );
 }
