@@ -9,9 +9,9 @@ console.log(blogData);
 function App() {
   return (
     <div className="App">
-      {Header()}
-      {About()}
-      {ArticleList()}
+      <Header name ={blogData.name}/>
+      <About />
+      <ArticleList />
     </div>
   );
 }

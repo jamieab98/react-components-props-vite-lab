@@ -1,10 +1,10 @@
 import React from "react";
 
-function Header() {
+function Header(props) {
 
     return (
         <div id = "header">
-            Header
+            <h1>{props.name}</h1>
         </div>
     );
 }

@@ -6,7 +6,7 @@ function ArticleList() {
     return (
         <div id = "articleList">
             Article List
-            {Article()}
+            <Article />
         </div>
     );
 }
