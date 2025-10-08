@@ -1,6 +1,6 @@
 import React from "react";
 
-function Article({key, title, date, preview, minutes}) {
+function Article({key, title, date = "January 1, 1970", preview, minutes}) {
 
     return (
         <article>
