@@ -5,7 +5,7 @@ function ArticleList() {
 
     return (
         <div id = "articleList">
-            Article List
+            <main></main>
             <Article />
         </div>
     );
